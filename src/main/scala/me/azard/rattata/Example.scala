@@ -1,5 +1,5 @@
 package me.azard.rattata
-
+import me.azard.rattata.Rattata
 import scala.reflect.runtime.universe._
 
 object Example extends App{
