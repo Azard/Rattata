@@ -89,4 +89,6 @@ Expr
 |   |   |   |   |   |---"y"
 ```
 
-More usages like show or not show lines, change indent size, see [Example](https://github.com/Azard/Rattata/blob/master/src/main/scala/me/azard/rattata/Example.scala).
+* `Rattata.setTabSize(2).pprintAST(exp)` to change indent size.
+* `Rattata.setShowLine(false).pprintAST(exp)` to remove lines.
+* `Rattata.setTabSize(2).setShowLine(false).pprintAST(exp)` or setting at same time.
