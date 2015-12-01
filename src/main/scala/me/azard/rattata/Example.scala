@@ -1,8 +1,8 @@
 package me.azard.rattata
-import me.azard.rattata.Rattata
+
 import scala.reflect.runtime.universe._
 
-object Example extends App{
+object Example extends App {
 
   val exp = reify {
     val x = 1

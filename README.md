@@ -8,6 +8,22 @@ Scala: 2.11.7
 
 ## Usage
 
+Rattata hasn't publish to third-party library server, so use Rattata at local or reference from GitHub in `build.sbt`.
+
+### Local use
+```
+> git clone https://github.com/Azard/Rattata.git
+> cd Rattata
+> sbt publish-local
+```
+
+Add `libraryDependencies += "me.azard" %%    "rattata"  % "1.0.0"` to `build.sbt`
+
+Now can `import me.azard.rattata.Rattata`
+
+### Reference from GitHub
+
+See ["How can sbt pull dependency artifacts from git?" - StackOverflow](http://stackoverflow.com/questions/7550376/how-can-sbt-pull-dependency-artifacts-from-git).
 
 ## Example
 When use Scala AST to write macro, do pattern match or something else, it will be helpful to read a pretty print AST.
